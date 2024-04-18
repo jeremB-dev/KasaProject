@@ -1,6 +1,6 @@
 # KASA: Chez vous, partout et ailleurs
 
-<img alt="logo-projet" scr="/src/assets/img-Readme/Kasa_img_logo.png">
+<img alt="logo-projet" src="/KasaProject/src/assets/img-Readme/Kasa_img_logo.png">
 
 ## Description
 
