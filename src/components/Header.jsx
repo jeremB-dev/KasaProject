@@ -1,12 +1,13 @@
+import logoKasa from '../assets/img-projet/LOGO.png';
 
 const Header = () => {
     return (
         <div className="header">
-            <img src="" alt="logo" />
+            <img className='header_logo' src={logoKasa} alt="logo-kasa" />
              <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
+                    <li>Acceuil</li>
+                    <li>A Propos</li>
                 </ul>
             </nav>
         </div>
