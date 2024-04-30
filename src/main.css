@@ -1,3 +1,18 @@
-header {
+.header {
   display: flex;
+  justify-content: space-between;
+}
+.header nav ul {
+  display: flex;
+}
+.header nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+.header nav ul a.underline {
+  text-decoration: underline;
+}
+.header nav ul li {
+  margin: 0 10px;
+  list-style: none;
 }/*# sourceMappingURL=main.css.map */
