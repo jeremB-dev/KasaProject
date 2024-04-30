@@ -6,7 +6,7 @@ const Header = () => {
             <img className='header_logo' src={logoKasa} alt="logo-kasa" />
              <nav>
                 <ul>
-                   <NavLink to="/" className={({isActive}) => (isActive ? "underline" : "")}>
+                   <NavLink to="/" className={({isActive}) => (isActive ? "underline" : "")}> 
                     <li>Acceuil</li>
                     </NavLink>
                     <NavLink to="/about" className={({isActive}) => (isActive ? "underline" : "")}>
