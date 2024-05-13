@@ -1,5 +1,6 @@
 import React from 'react'
 import imgBanner from '../assets/img-projet/imgAccueil.png';
+
 function Banner() {
   return (
     <div className="banner">

@@ -5,11 +5,11 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(3.28%);
+    grid-template-columns: repeat(auto-fill, minmax(22%, 1fr));
     grid-template-rows: auto;
     gap: 50px;
-    padding: 50px 0;
+    padding: 50px 50px;
     margin: 0 auto;
     margin-bottom: 40px;
-    max-width: 1240px;
+    max-width: 1140px;
 }

@@ -1,5 +1,6 @@
 import logoFooter from '../assets/img-projet/logoFooter.png';
 
+
 const Footer = () => {
     return (
         <div className='logoFooter'>
