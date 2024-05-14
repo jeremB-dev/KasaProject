@@ -1,7 +1,7 @@
 import { NavLink }  from "react-router-dom";
 import PropTypes from "prop-types";
 
-const Thumb = ({ logements }) => {
+const Thumbs = ({ logements }) => {
   return (
     <>
       {logements.map((logement) => (
@@ -16,7 +16,7 @@ const Thumb = ({ logements }) => {
   );
 };
 
-Thumb.prototype = {
+Thumbs.prototype = {
   logements: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
@@ -26,4 +26,4 @@ Thumb.prototype = {
 ).isRequired,
 }
 
-export default Thumb;
+export default Thumbs;

@@ -1,4 +1,4 @@
-import Thumb from "./Thumb";
+import Thumb from "./Thumbs";
 import logements from "../assets/data/logements.json";
 
 

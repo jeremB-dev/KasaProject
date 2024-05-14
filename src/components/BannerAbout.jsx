@@ -5,7 +5,7 @@ function BannerAbout() {
   return (
     <div className="banner">
                 <img src={imgBannerAbout} className='bannerImg' alt="image de la bannière"/>
-                <div className="bannerFilter"></div>
+                <div className="bannerFilterAbout"></div>
             </div>
   )
 }
