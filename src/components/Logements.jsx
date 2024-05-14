@@ -5,6 +5,7 @@ const Logement = () => {
         <div>
           <p>Voici le logement</p>  
         </div>
+
     );
 };
 

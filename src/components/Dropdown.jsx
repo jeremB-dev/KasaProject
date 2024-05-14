@@ -17,6 +17,7 @@ const Dropdown = ({ title, children }) => {
             <div className={`paragraph ${isVisible ? "down" : ""}`}>
                 {children}
             </div>    
+            
         </div>
     );
 };

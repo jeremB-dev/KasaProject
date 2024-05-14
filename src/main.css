@@ -186,15 +186,7 @@
 }
 
 .dropdown {
-  border-radius: 10px;
-  margin-bottom: 10px;
-  overflow: hidden;
   max-width: 1240px;
   margin: 0 auto;
   width: 85%;
-}
-.dropdown .dropdownTitle {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
