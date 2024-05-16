@@ -2,7 +2,7 @@ import Error404 from '../components/Error404';
 
 const Error = () => {
     return (
-        <div className="error">
+        <div>
             <Error404 />
         </div>
     );
