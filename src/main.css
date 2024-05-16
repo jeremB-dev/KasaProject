@@ -46,7 +46,7 @@
   background: #f6f6f6;
   height: 223px;
   max-width: 1240px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .banner .bannerImg {
   border-radius: 25px;
@@ -93,6 +93,17 @@
   position: relative;
   cursor: pointer;
 }
+.thumb::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 5%, transparent 100%);
+  z-index: 1;
+  border-radius: 15px;
+}
 .thumb img {
   width: 100%;
   height: 100%;
@@ -114,10 +125,10 @@
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  background-color: rgba(0, 0, 0, 0.257);
   border-radius: 10px;
   padding: 10px;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .gallery {
@@ -144,7 +155,6 @@
   justify-content: center;
   align-items: center;
   background-color: black;
-  margin-top: 30px;
   margin: 0;
   padding: 0;
 }
@@ -186,7 +196,66 @@
 }
 
 .dropdown {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
   max-width: 1240px;
   margin: 0 auto;
-  width: 85%;
+  width: 56%;
+}
+.dropdown .dropdownTitle {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff6060;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  height: 52px;
+}
+.dropdown .dropdownTitle h3 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 10px;
+}
+.dropdown .dropdownTitle .arrow {
+  cursor: pointer;
+  margin-right: 10px;
+  transition: transform 0.2s ease;
+  height: 24px;
+  width: 24px;
+}
+.dropdown .dropdownTitle .arrow.down {
+  transform: rotate(-180deg);
+}
+.dropdown .paragraph {
+  background-color: #f6f6f6;
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  transform: translateY(-50px);
+  overflow: hidden;
+  opacity: 0;
+  height: 0;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+}
+.dropdown .paragraph.animation {
+  opacity: 1;
+  transform: translateY(0px);
+  height: -moz-max-content;
+  height: max-content;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
