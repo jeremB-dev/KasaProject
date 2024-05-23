@@ -1,0 +1,157 @@
+.appt {
+  height: 80%;
+  border-radius: 25px;
+  max-width: 1240px;
+  margin: 0 auto;
+  position: relative;
+  width: 95%;
+  .caroussel {
+    position: relative;
+    .slider {
+      width: 100%;
+      height: 415px;
+      border-radius: 25px;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      object-fit: cover;
+    }
+    .arrowLeft {
+      position: absolute;
+      top: 210px;
+      left: 0px;
+      height: 78px;
+      width: 46px;
+      padding-left: 20px;
+      cursor: pointer;
+
+    }
+    .arrowRight {
+      position: absolute;
+      top: 210px;
+      right: 0px;
+      height: 78px;
+      width: 46px;
+      padding-right: 20px;
+      cursor: pointer;
+
+    }
+    .indic {
+      position: absolute;
+      bottom: 7%;
+      right: 50%;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      color: white;
+    }
+  }
+  .appt-container {
+    display: flex;
+    flex-direction: column;
+    p {
+      color: #ff6060;
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 142.6%;
+      margin: 0;
+
+    }
+    
+    .appt-content-up {
+      display: flex;
+      justify-content: space-between;
+      
+      
+
+      .appt-title {
+        max-width: 700px;
+        color: #ff6060;
+        font-family: "Montserrat";
+        font-size: 36px;
+        font-weight: 500;
+        margin: 10px 0 5px 0;
+        left: 30px;
+
+      }
+      .appt-location {
+        color: #000000;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.67px;
+        
+      }
+      .container-tags {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 90px;
+        .tags {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: fit-content;
+          height: fit-content;
+          background: #ff6060;
+          color: white;
+          border-radius: 10px;
+          text-align: center;
+          padding: 5px 30px;
+          font-size: 14px;
+        }
+      }
+      .hostRating {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: flex-end;
+
+        .host {
+          display: flex;
+          img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+          }
+        }
+        h3 {
+          color: #ff6060;
+          text-align: right;
+          font-family: Montserrat;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 142.6%;
+          margin-right: 10px;
+        }
+        .rating {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: flex-end;
+            .starPinks {
+                width: 36px;
+                height: 36px;
+            }
+            .starGreys {
+                width: 36px;
+                height: 36px;
+            }
+        }
+     
+      }
+    }
+    .appt-content-down {
+      display: flex;
+      gap: 70px;
+      margin-top: 25px;
+
+      li {
+        list-style: none;
+        color: #ff6060;
+      }
+    }
+  }
+}

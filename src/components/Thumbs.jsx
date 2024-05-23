@@ -16,7 +16,7 @@ const Thumbs = ({ logements }) => {
   );
 };
 
-Thumbs.prototype = {
+Thumbs.propType = {
   logements: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
