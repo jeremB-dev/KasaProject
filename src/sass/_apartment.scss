@@ -12,28 +12,25 @@
       height: 415px;
       border-radius: 25px;
       margin-top: 40px;
-      margin-bottom: 30px;
       object-fit: cover;
     }
     .arrowLeft {
       position: absolute;
-      top: 210px;
+      top: 220px;
       left: 0px;
       height: 78px;
       width: 46px;
       padding-left: 20px;
       cursor: pointer;
-
     }
     .arrowRight {
       position: absolute;
-      top: 210px;
+      top: 220px;
       right: 0px;
       height: 78px;
       width: 46px;
       padding-right: 20px;
       cursor: pointer;
-
     }
     .indic {
       position: absolute;
@@ -46,48 +43,45 @@
       color: white;
     }
   }
-  .appt-container {
+  .appt-container-up-down {
     display: flex;
     flex-direction: column;
     p {
       color: #ff6060;
-      font-family: "Montserrat";
+      font-family: Montserrat;
       font-size: 18px;
       font-weight: 500;
       line-height: 142.6%;
       margin: 0;
-
     }
-    
     .appt-content-up {
       display: flex;
       justify-content: space-between;
       
-      
-
-      .appt-title {
+      h2 {
         max-width: 700px;
         color: #ff6060;
-        font-family: "Montserrat";
+        font-family: Montserrat;
         font-size: 36px;
         font-weight: 500;
-        margin: 10px 0 5px 0;
-        left: 30px;
-
-      }
-      .appt-location {
-        color: #000000;
-        font-family: "Montserrat";
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 25.67px;
+        padding: 0;
         
+      }
+      h3 {
+        color: #000000;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: bold;
+        font-weight: 500;
+        
+        top: 520px;
       }
       .container-tags {
         display: flex;
         gap: 10px;
         flex-wrap: wrap;
-        margin-top: 90px;
+        bottom: 150px;
+        margin-right: 741px;
         .tags {
           display: flex;
           justify-content: center;
@@ -108,9 +102,10 @@
         flex-direction: column;
         box-sizing: border-box;
         align-items: flex-end;
-
+        margin-top: 40px;
         .host {
           display: flex;
+
           img {
             width: 64px;
             height: 64px;
@@ -124,33 +119,28 @@
           font-size: 18px;
           font-weight: 500;
           line-height: 142.6%;
-          margin-right: 10px;
+          position: absolute;
+          right: 80px;
+          top: 500px
         }
-        .rating {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            justify-content: flex-end;
-            .starPinks {
-                width: 36px;
-                height: 36px;
-            }
-            .starGreys {
-                width: 36px;
-                height: 36px;
-            }
+      }
+      .rating {
+        display: flex;
+        gap: 15px;
+        .starPinks .starGreys {  
+          width: 24.75px;
+          height: 24px;
         }
-     
       }
     }
+
     .appt-content-down {
       display: flex;
       gap: 70px;
-      margin-top: 25px;
-
+      margin-top: 65px;
       li {
         list-style: none;
-        color: #ff6060;
+        color: #000000;
       }
     }
   }

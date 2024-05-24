@@ -34,12 +34,12 @@ const Apartment = () => {
             <div className="appt-content-up-left">
               <h2>{apartment.title}</h2>
               <h3>{apartment.location}</h3>
+            </div>
               <div className="container-tags">
                 {apartment.tags.map((tag, index) => (
                   <Tags key={index} text={tag} />
                 ))}
               </div>
-            </div>
             <div className="hostRating">
               <div className="host">
                 <h3>{apartment.host.name}</h3>

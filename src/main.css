@@ -312,13 +312,12 @@ h2 {
   height: 415px;
   border-radius: 25px;
   margin-top: 40px;
-  margin-bottom: 30px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .appt .caroussel .arrowLeft {
   position: absolute;
-  top: 210px;
+  top: 220px;
   left: 0px;
   height: 78px;
   width: 46px;
@@ -327,7 +326,7 @@ h2 {
 }
 .appt .caroussel .arrowRight {
   position: absolute;
-  top: 210px;
+  top: 220px;
   right: 0px;
   height: 78px;
   width: 46px;
@@ -344,45 +343,46 @@ h2 {
   line-height: 26px;
   color: white;
 }
-.appt .appt-container {
+.appt .appt-container-up-down {
   display: flex;
   flex-direction: column;
 }
-.appt .appt-container p {
+.appt .appt-container-up-down p {
   color: #ff6060;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;
   line-height: 142.6%;
   margin: 0;
 }
-.appt .appt-container .appt-content-up {
+.appt .appt-container-up-down .appt-content-up {
   display: flex;
   justify-content: space-between;
 }
-.appt .appt-container .appt-content-up .appt-title {
+.appt .appt-container-up-down .appt-content-up h2 {
   max-width: 700px;
   color: #ff6060;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-size: 36px;
   font-weight: 500;
-  margin: 10px 0 5px 0;
-  left: 30px;
+  padding: 0;
 }
-.appt .appt-container .appt-content-up .appt-location {
+.appt .appt-container-up-down .appt-content-up h3 {
   color: #000000;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-size: 18px;
+  font-weight: bold;
   font-weight: 500;
-  line-height: 25.67px;
+  top: 520px;
 }
-.appt .appt-container .appt-content-up .container-tags {
+.appt .appt-container-up-down .appt-content-up .container-tags {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  margin-top: 90px;
+  bottom: 150px;
+  margin-right: 741px;
 }
-.appt .appt-container .appt-content-up .container-tags .tags {
+.appt .appt-container-up-down .appt-content-up .container-tags .tags {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -397,50 +397,47 @@ h2 {
   padding: 5px 30px;
   font-size: 14px;
 }
-.appt .appt-container .appt-content-up .hostRating {
+.appt .appt-container-up-down .appt-content-up .hostRating {
   display: flex;
   gap: 20px;
   flex-direction: column;
   box-sizing: border-box;
   align-items: flex-end;
+  margin-top: 40px;
 }
-.appt .appt-container .appt-content-up .hostRating .host {
+.appt .appt-container-up-down .appt-content-up .hostRating .host {
   display: flex;
 }
-.appt .appt-container .appt-content-up .hostRating .host img {
+.appt .appt-container-up-down .appt-content-up .hostRating .host img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
 }
-.appt .appt-container .appt-content-up .hostRating h3 {
+.appt .appt-container-up-down .appt-content-up .hostRating h3 {
   color: #ff6060;
   text-align: right;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;
   line-height: 142.6%;
-  margin-right: 10px;
+  position: absolute;
+  right: 80px;
+  top: 500px;
 }
-.appt .appt-container .appt-content-up .hostRating .rating {
+.appt .appt-container-up-down .appt-content-up .rating {
   display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: flex-end;
+  gap: 15px;
 }
-.appt .appt-container .appt-content-up .hostRating .rating .starPinks {
-  width: 36px;
-  height: 36px;
+.appt .appt-container-up-down .appt-content-up .rating .starPinks .starGreys {
+  width: 24.75px;
+  height: 24px;
 }
-.appt .appt-container .appt-content-up .hostRating .rating .starGreys {
-  width: 36px;
-  height: 36px;
-}
-.appt .appt-container .appt-content-down {
+.appt .appt-container-up-down .appt-content-down {
   display: flex;
   gap: 70px;
-  margin-top: 25px;
+  margin-top: 65px;
 }
-.appt .appt-container .appt-content-down li {
+.appt .appt-container-up-down .appt-content-down li {
   list-style: none;
-  color: #ff6060;
+  color: #000000;
 }/*# sourceMappingURL=main.css.map */
