@@ -8,7 +8,7 @@ const Thumbs = ({ logements }) => {
         <div key={`routePaths${logement.id}`} className="thumb">
           <NavLink to={`/logement/${logement.id}`}>
             <img src={logement.cover} alt={ `photo ${logement.title}`} />
-            <h2 key={`${logement.id}`}>{logement.title}</h2>
+            <h2 className="title-thumb" key={`${logement.id}`}>{logement.title}</h2>
           </NavLink>
         </div>
       ))}

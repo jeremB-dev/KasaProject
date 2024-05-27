@@ -29,28 +29,28 @@ const Apartment = () => {
     <>
       <div className="appt">
         <Caroussel slides={apartment.pictures}/>
-        <div className="appt-container-up-down">
-          <div className="appt-content-up">
-            <div className="appt-content-up-left">
-              <h2>{apartment.title}</h2>
-              <h3>{apartment.location}</h3>
+        <div className="appt-container">
+          <div className="appt-container-up">
+            <div className="appt-container-up-left">
+              <h2 className="appt-title">{apartment.title}</h2>
+              <h3 className="appt-loc">{apartment.location}</h3>
             </div>
               <div className="container-tags">
                 {apartment.tags.map((tag, index) => (
                   <Tags key={index} text={tag} />
                 ))}
               </div>
-            <div className="hostRating">
+            <div className="container-hostRating">
               <div className="host">
-                <h3>{apartment.host.name}</h3>
-                <img src={apartment.host.picture} alt={apartment.title} />
+                <h3 className="host-name">{apartment.host.name}</h3>
+                <img className="host-img" src={apartment.host.picture} alt={apartment.title} />
               </div>
               <div className="rating">
                 <Rating rating = {parseInt(apartment.rating,10)}/>
               </div>
             </div>
           </div>
-          <div className="appt-content-down">
+          <div className="appt-container-down">
             <Dropdown title="Description">{apartment.description}</Dropdown>
             <Dropdown title="Equipement">
               <ul>

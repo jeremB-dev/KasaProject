@@ -9,11 +9,11 @@ const Rating= ({ rating }) => {
   let starGreys = [];
 
   for (let index = 0; index < rating; index++) {
-    starPinks.push(<img className="starPinks" key={index} src={starPink} alt="Full Star" />);
+    starPinks.push(<img className="starPinks" key={index} src={starPink} alt="Pink Star" />);
   }
 
   for (let index = 0; index < (totalStars - rating); index++) {
-    starGreys.push(<img className="starGreys" key={index} src={starGrey} alt="Empty Star" />);
+    starGreys.push(<img className="starGreys" key={index} src={starGrey} alt="Grey Star" />);
   }
 
   return (
