@@ -5,8 +5,13 @@
   max-width: 1240px;
   margin: 0 auto;
   width: 60%;
+  gap: 20px;
   @media (max-width: 375px) {
+    position: relative;
     width: 90%;
+    .dropdown.active {
+      margin-bottom: 209px;
+    }
   }
 
   .dropdownTitle {
@@ -67,6 +72,7 @@
     padding: 10px;
     @media (max-width: 375px) {
       font-size: 14px;
+      margin-bottom: 20px;
     }
     
     &.animation {
@@ -75,7 +81,8 @@
       height: max-content;
       margin-bottom: 30px;
       @media (max-width: 375px) {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        height: auto;
       }
     }
   }

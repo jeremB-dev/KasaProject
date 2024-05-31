@@ -4,15 +4,15 @@ import PropTypes from "prop-types";
 
 const Dropdown = ({ title, children }) => {
     const [isVisible, setIsVisible] = useState(false);
-    const pullDown = () => {
+    const toggleDropdown = () => {
         setIsVisible(!isVisible);
     }
 
     return (
-        <div className={`dropdown ${isVisible ? "visible" : ""}`}>
-            <div className="dropdownTitle" >
+        <div className={`dropdown ${isVisible ? "active" : ""}`}>
+            <div className="dropdownTitle" onClick={toggleDropdown} >
                 <h3>{title}</h3>
-                <img src={ArrowDown} alt="flèche" className={`arrow ${isVisible ? "down" : ""}`} onClick={pullDown} />
+                <img src={ArrowDown} alt="flèche" className={`arrow ${isVisible ? "down" : ""}`}  />
             </div>
             <div className={`paragraph ${isVisible ? "animation" : ""}`}>
                 {children}

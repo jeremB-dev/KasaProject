@@ -1,16 +1,15 @@
 import { NavLink }  from "react-router-dom";
 import PropTypes from "prop-types";
 
+
 const Thumbs = ({ logements }) => {
   return (
     <>
       {logements.map((logement) => (
-        <div key={`routePaths${logement.id}`} className="thumb">
-          <NavLink to={`/logement/${logement.id}`}>
+          <NavLink to={`/logement/${logement.id}`} className="thumb" key={`routePaths${logement.id}`}>  
             <img src={logement.cover} alt={ `photo ${logement.title}`} />
             <h2 className="title-thumb" key={`${logement.id}`}>{logement.title}</h2>
           </NavLink>
-        </div>
       ))}
     </>
   );
