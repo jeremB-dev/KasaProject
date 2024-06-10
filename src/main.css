@@ -317,7 +317,7 @@
 @media (max-width: 375px) {
   .dropdown {
     position: relative;
-    width: 90%;
+    width: 95%;
   }
   .dropdown .dropdown.active {
     margin-bottom: 209px;
@@ -615,8 +615,8 @@
 }
 @media (max-width: 375px) {
   .appt .appt-container .container-tags {
-    top: 320px;
-    margin-left: 10px;
+    position: inherit;
+    padding-left: 10px;
   }
 }
 .appt .appt-container .tags {
@@ -637,8 +637,8 @@
 }
 @media (max-width: 375px) {
   .appt .appt-container .tags {
-    width: 10%;
-    height: 14px;
+    width: 95px;
+    height: 18px;
     font-size: 10px;
   }
 }
@@ -656,7 +656,8 @@
 }
 @media (max-width: 375px) {
   .appt .host {
-    margin-right: 10px;
+    position: absolute;
+    top: 410px;
   }
 }
 .appt .host .host-name {
@@ -685,14 +686,21 @@
 }
 @media (max-width: 375px) {
   .appt .host .host-img {
-    width: 42px;
-    height: 42px;
+    width: 45px;
+    height: 45px;
   }
 }
 .appt .rating {
   display: flex;
   gap: 15px;
   padding-top: 15px;
+}
+@media (max-width: 375px) {
+  .appt .rating {
+    position: absolute;
+    top: 410px;
+    left: 10px;
+  }
 }
 .appt .rating .starPinks {
   height: 34px;
@@ -718,7 +726,7 @@
 @media (max-width: 375px) {
   .appt .appt-container-down {
     flex-direction: column;
-    gap: 5px;
+    gap: 1px;
     width: 100%;
   }
 }
