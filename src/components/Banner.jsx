@@ -1,4 +1,4 @@
-import React from 'react'
+// Importations de l'img nécessaires 
 import imgBanner from '../assets/img-projet/imgAccueil.png';
 
 function Banner() {

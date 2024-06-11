@@ -1,4 +1,4 @@
-import React from 'react'
+
 import imgBannerAbout from '../assets/img-projet/imgAbout.png';
 
 function BannerAbout() {

@@ -1,6 +1,5 @@
 .dropdown {
   border-radius: 5px;
-  margin-bottom: 20px;
   overflow: hidden;
   max-width: 1240px;
   margin: 0 auto;
@@ -9,10 +8,13 @@
   @media (max-width: 375px) {
     position: relative;
     width: 95%;
+    
     .dropdown.active {
       margin-bottom: 209px;
     }
   }
+
+  
 
   .dropdownTitle {
     position: relative;

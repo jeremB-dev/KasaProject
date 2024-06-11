@@ -6,9 +6,10 @@
   justify-content: center;
   align-items: center;
   background-color: black;
-
+  @media (max-width: 375px) {
+    
+  }
   
-
   img {
     width: 122px;
     height: 39.44px;

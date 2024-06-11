@@ -5,12 +5,14 @@ import CollapseJson from "../assets/data/collapse.json";
 const About = () => {
     return (
         <div className="about">
-               <BannerAbout />
-               {CollapseJson.map((collapse, index) => (
-                <Dropdown key={index} index={index} title={collapse.title}>
-                    {collapse.text}
-                </Dropdown>
-               ))} 
+            <BannerAbout />
+            <div className="about-dropdown">
+                {CollapseJson.map((collapse, index) => (
+                    <Dropdown key={index} index={index} title={collapse.title} >
+                        {collapse.text}
+                    </Dropdown>
+                ))}
+            </div>
         </div>
     );
 };

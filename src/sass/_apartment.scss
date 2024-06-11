@@ -123,7 +123,7 @@
       display: flex;
       gap: 10px;
       position: absolute;
-      top: 590px;
+      top: 630px;
       @media (max-width: 375px) {
         position: static;
         padding-left: 10px;
@@ -169,7 +169,7 @@
     justify-content: flex-end;
     @media (max-width: 375px) {
       position: absolute;
-      top: 0;
+      bottom: 5px;
       right: 9px;
     }
     .host-name {
@@ -206,7 +206,7 @@
     padding-top: 15px;
     @media (max-width: 375px) {
       position: absolute;
-      top: 0;
+      bottom: 15px;
       left: 10px;
     }
     .starPinks {
@@ -226,11 +226,12 @@
   .appt-container-down {
     display: flex;
     gap: 70px;
-    margin-top: 35px;
+    margin-top: 85px;
     @media (max-width: 375px) {
       flex-direction: column;
-      gap: 1px;
+      gap: 0px;
       width: 100%;
+      margin-top: 35px;
     }
   }
   ul {

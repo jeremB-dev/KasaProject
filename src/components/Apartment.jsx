@@ -1,3 +1,4 @@
+// Importations des modules et composants nécessaires 
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import logements from "../assets/data/logements.json";

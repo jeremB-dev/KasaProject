@@ -8,6 +8,18 @@
   @media screen and (max-width: 375px) {
     gap: 0;
     width: 100%;
-    margin-bottom: 156px;
+    margin-bottom: 15px;
+  }
+}
+
+.about-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  @media screen and (max-width: 375px) {
+    gap: 0;
+    width: 95%;
+    padding-left: 10px;
   }
 }
