@@ -4,6 +4,7 @@ import CollapseJson from "../assets/data/collapse.json";
 
 const About = () => {
     return (
+        
         <div className="about">
             <BannerAbout />
             <div className="about-dropdown">

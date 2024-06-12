@@ -6,7 +6,7 @@
   max-width: 1240px;
   padding-top: 40px;
   padding-bottom: 50px;
-  @media (max-width: 375px) {
+  @media (max-width: 420px) {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 0px;
@@ -14,7 +14,7 @@
 
   &__logo {
     width: 17%;
-    @media (max-width: 375px) {
+    @media (max-width: 420px) {
       width: 45%;
       padding-left: 10px;
     }
@@ -22,7 +22,7 @@
 
   nav {
     padding-top: 15px;
-    @media (max-width: 375px) {
+    @media (max-width: 420px) {
       padding-right: 30px;
       display: flex;
     }
@@ -32,7 +32,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 0;
-      @media (max-width: 375px) {
+      @media (max-width: 420px) {
         gap: 20px;
         position: absolute;
         top: 35px;
@@ -45,7 +45,7 @@
         font-family: "Montserrat", sans-serif;
         font-size: 15px;
         padding-left: 40px;
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 420px) {
           padding: 0;
         }
         &.underline {
@@ -57,7 +57,7 @@
           font-family: "Montserrat", sans-serif;
           font-weight: 500;
           font-size: 150%;
-          @media screen and (max-width: 375px) {
+          @media screen and (max-width: 420px) {
             font-size: 12px;
             padding-left: 10px;
             text-transform: uppercase;

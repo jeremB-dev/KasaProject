@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   background-color: black;
-  @media (max-width: 375px) {
+  @media (max-width: 420px) {
     
   }
   
@@ -28,7 +28,7 @@
     position: relative;
     top: 30px;
     line-height: 142.6%;
-    @media (max-width: 375px) {
+    @media (max-width: 420px) {
       font-size: 14px;
       width: 50%;
       top: -20px;
