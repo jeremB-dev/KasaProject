@@ -1,29 +1,35 @@
 // Importations des modules et composants nécessaires 
+
+// Importe le module (hook) useEffect pour déclencher des effets de bord dans les composants.
 import { useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+//Importe les modules useParams/useNavigate pour récupérer les paramètres de l'URL 
+//et naviguer entre les pages.
+import { useParams, useNavigate } from "react-router-dom"; 
+// Importe les composants
 import logements from "../assets/data/logements.json";
 import Dropdown from "./Dropdown";
 import Rating from "./Stars";
 import Caroussel from "./Caroussel";
 import Tags from "./Tags";
 
+// Définition du composant Apartment
 const Apartment = () => {
   // Récupère les paramètres de l'URL.
   const { id } = useParams();
   // Permet de naviguer entre les pages.
   const navigate = useNavigate();
   // Récupère les données du logement correspondant à l'ID.
-  const apartment = logements.find((item) => item.id === id); //null ou undefined
+  const apartment = logements.find((item) => item.id === id); 
 
-  // Redirige vers la page d'erreur si l'ID n'existe pas.
+  //Redirige vers la page d'erreur si l'ID n'existe pas.
   useEffect(() => {
     if (!apartment) {
       navigate('/Error');
     }
-  }, [apartment, navigate, id]);
+  }, [apartment, navigate, id]); //Déclenche l'effet si l'ID, l'appartement ou la navigation change.
 
-  if (!apartment) {
-    return null
+  if (!apartment) { 
+    return null //Retourne null si l'appartement n'existe pas.
   }
 
   return (

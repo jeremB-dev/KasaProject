@@ -1,15 +1,17 @@
 // Importations des modules nécessaires
 import { NavLink } from "react-router-dom";  // Importe composant NavLink pour créer liens de navigation
-import PropTypes from "prop-types";  // Importe module PropTypes pour définir les types de propriétés
+import PropTypes from "prop-types";  // Importe module PropTypes pour définir les types de propriétés(props)
 
 
 const Thumbs = ({ logements }) => {
   return (
     <>
+        {/*Itére sur le tableau logements en utilisant la méthode map. 
+        Pour chaque logement, création d'url dynamique et une clé unique avec l'id du logement*/}
       {logements.map((logement) => (       
-        // Pour chaque logement, crée un lien de navigation (NavLink)
-          <NavLink to={`/logement/${logement.id}`} key={`routePaths${logement.id}`} className="thumb">
-          {/* Affiche l'image du logement */}
+        <NavLink to={`/logement/${logement.id}`} key={`routePaths${logement.id}`} className="thumb">
+            {/* crée une balise img par l'attribut src defini par la propriété cover du logement*/}
+              {/*et défini un texte alternatif pour l'img en utilisant le titre du logement*/}
             <img src={logement.cover} alt={`photo de l'appartement ${logement.title}`} />
           {/* Affiche le titre du logement */}
             <h2 className="title-thumb">{logement.title}</h2>
@@ -21,13 +23,13 @@ const Thumbs = ({ logements }) => {
 
 // Définition des types de propriétés attendus pour le composant Thumbs
 Thumbs.propTypes = {
-  logements: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,  // Propriété id de type string requise
-      title: PropTypes.string.isRequired,  // Propriété title de type string requise
-      cover: PropTypes.string.isRequired,  // Propriété cover de type string requise
+  logements: PropTypes.arrayOf( // Propriété logements de type tableau
+    PropTypes.shape({ // Chaque élément du tableau est un objet avec les propriétés obligatoire suivantes: 
+      id: PropTypes.string.isRequired, 
+      title: PropTypes.string.isRequired, 
+      cover: PropTypes.string.isRequired, 
     })
-).isRequired,
+  ).isRequired, //Indique que la propriété logements elle-même est obligatoire.
 }
-// Exportation du composant Thumbs
+
 export default Thumbs;

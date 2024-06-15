@@ -1,3 +1,4 @@
+// import du logo
 import logoFooter from '../assets/img-projet/logoFooter.png';
 
 

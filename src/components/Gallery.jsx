@@ -1,3 +1,4 @@
+// import composant Thumb et le fichier logements.json
 import Thumb from "./Thumbs";
 import logements from "../assets/data/logements.json";
 

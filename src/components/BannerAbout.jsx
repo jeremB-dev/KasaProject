@@ -1,4 +1,4 @@
-
+//import de l'img de la bannière
 import imgBannerAbout from '../assets/img-projet/imgAbout.png';
 
 function BannerAbout() {

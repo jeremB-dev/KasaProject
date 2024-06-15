@@ -1,3 +1,4 @@
+// import des composant et du fichier collapse.json
 import BannerAbout from "../components/BannerAbout";
 import Dropdown from "../components/Dropdown";
 import CollapseJson from "../assets/data/collapse.json";

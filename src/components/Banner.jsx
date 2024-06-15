@@ -1,4 +1,5 @@
 // Importations de l'img nécessaires 
+//import de imgBanner
 import imgBanner from '../assets/img-projet/imgAccueil.png';
 
 function Banner() {

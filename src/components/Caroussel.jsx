@@ -18,7 +18,7 @@ const Caroussel = ({ slides }) => {
     };
 
     // Stocke l'URL de l'image actuelle pour l'affichage et le nombre total d'images.
-    const currentSlide = slides[currentImage]; //http://localhost:/monimage.png
+    const currentSlide = slides[currentImage];
     const numberSlide = slides.length;
 
     // Vérifier si plus d'une slide est présente avant d'afficher les flèches et les indicatifs.

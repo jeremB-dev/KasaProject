@@ -1,3 +1,4 @@
+// import composants
 import Banner from "../components/Banner";
 import Gallery from "../components/Gallery";
 
