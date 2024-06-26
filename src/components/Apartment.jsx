@@ -19,7 +19,7 @@ const Apartment = () => {
   // Permet de naviguer entre les pages.
   const navigate = useNavigate();
   // Récupère les données du logement correspondant à l'ID.
-  const apartment = logements.find((item) => item.id === id); 
+  const apartment = logements.find((item) => item.id === id); //
 
   //Redirige vers la page d'erreur si l'ID n'existe pas.
   useEffect(() => {

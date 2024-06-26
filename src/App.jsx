@@ -24,4 +24,5 @@ const App = () => {
   );
 };
 
+// exportation du composant App
 export default App;

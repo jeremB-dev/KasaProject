@@ -46,7 +46,7 @@ const Caroussel = ({ slides }) => {
 };
 
 // Définit le type des props de Caroussel.
-Caroussel.propTypes = {
+Caroussel.propTypes = { 
    slides: PropTypes.arrayOf(PropTypes.string).isRequired, // Tableau d'URLs d'images.
 };
 
