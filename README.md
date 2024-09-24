@@ -2,6 +2,10 @@
 
 ---
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-react.svg-javascript.svg-html.svg)]
+
+---
+
 <img alt="logo-projet" src="/src/assets/img-Readme/Kasa_img_logo.png" width="100%">
 
 ---
