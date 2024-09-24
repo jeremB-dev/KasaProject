@@ -8,7 +8,7 @@ const Header = () => {
              <nav>
                 <ul>
                    <NavLink to="/" className={({isActive}) => (isActive ? "underline" : "")}> 
-                    <li>Acceuil</li>
+                    <li>Accueil</li>
                     </NavLink>
                     <NavLink to="/about" className={({isActive}) => (isActive ? "underline" : "")}>
                     <li>A Propos</li>

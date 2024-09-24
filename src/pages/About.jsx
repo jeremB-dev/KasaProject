@@ -1,5 +1,6 @@
 // import des composant et du fichier collapse.json
-import BannerAbout from "../components/BannerAbout";
+import Banner from '../components/Banner';
+import imgBannerAbout from '../assets/img-projet/imgAbout.png';
 import Dropdown from "../components/Dropdown";
 import CollapseJson from "../assets/data/collapse.json";
 
@@ -7,7 +8,8 @@ const About = () => {
     return (
         
         <div className="about">
-            <BannerAbout />
+            <Banner showTitle={false} imgSrc={imgBannerAbout} imgClass="aboutBanner" 
+                filterClass="bannerFilterAbout"/>
             <div className="about-dropdown">
                 {CollapseJson.map((collapse, index) => (
                     <Dropdown key={index} index={index} title={collapse.title} >
