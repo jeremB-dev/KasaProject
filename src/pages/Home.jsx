@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import Gallery from "../components/Gallery";
 import imgBannerHome from '../assets/img-projet/imgAccueil.png';
 
+// Définition du composant Home
 const Home = () => {
     return (
         <div className="home">

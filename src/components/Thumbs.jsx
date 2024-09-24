@@ -2,7 +2,7 @@
 import { NavLink } from "react-router-dom";  // Importe composant NavLink pour créer liens de navigation
 import PropTypes from "prop-types";  // Importe module PropTypes pour définir les types de propriétés(props)
 
-
+// Définit le composant Thumbs
 const Thumbs = ({ logements }) => {
   return (
     <>

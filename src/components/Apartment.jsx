@@ -1,3 +1,4 @@
+//page qui affiche les détails d'un logement
 // Importations des modules et composants nécessaires 
 
 // Importe le module (hook) useEffect pour déclencher des effets de bord dans les composants.

@@ -1,3 +1,4 @@
+// page About du site
 // import des composant et du fichier collapse.json
 import Banner from '../components/Banner';
 import imgBannerAbout from '../assets/img-projet/imgAbout.png';

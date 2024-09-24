@@ -1,6 +1,7 @@
-/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/no-unescaped-entities */ //permet de désactiver les erreurs d’ESLint pour les caractères non échappés
 import { Link } from "react-router-dom";
 
+//composant Error404
 const Error404 = () => {
     return (
         <div className="error404">

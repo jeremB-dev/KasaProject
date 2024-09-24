@@ -1,3 +1,5 @@
+//page du carrousel
+// Importation des librairies et des fichiers nécessaires
 import PropTypes from 'prop-types';
 import arrowRight from '../assets/img-projet/arrowRight.png';
 import arrowLeft from '../assets/img-projet/arrowLeft.png';

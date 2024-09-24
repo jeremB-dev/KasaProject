@@ -1,5 +1,4 @@
-// Importations de l'img nécessaires 
-//import de l'img pour la bannière
+// composant pour les bannières home et about
 import PropTypes from 'prop-types';
 
 

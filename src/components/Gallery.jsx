@@ -2,7 +2,7 @@
 import Thumb from "./Thumbs";
 import logements from "../assets/data/logements.json";
 
-
+// Définition du composant Gallery
 const Gallery = () => {
   return (
     <div className="gallery">

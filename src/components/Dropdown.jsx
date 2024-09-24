@@ -1,3 +1,4 @@
+//importe les modules nécessaires à la création du composant Dropdown
 import { useState } from "react";  // Importe le hook useState du module react
 import ArrowDown from "../assets/img-projet/ArrowDown.png"; // Importe l'image de la flèche
 import PropTypes from "prop-types"; // Importe le module PropTypes pour définir les types de propriétés

@@ -121,6 +121,7 @@
   font-size: 48px;
   font-weight: 700;
   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  cursor: default;
 }
 @media screen and (max-width: 425px) {
   .banner h1 {
@@ -277,6 +278,7 @@
   position: relative;
   top: 30px;
   line-height: 142.6%;
+  cursor: default;
 }
 @media screen and (max-width: 425px) {
   .logoFooter h3 {
@@ -357,6 +359,7 @@
   overflow: hidden;
   z-index: 1;
   height: 52px;
+  cursor: default;
 }
 @media screen and (max-width: 425px) {
   .dropdown .dropdownTitle {
@@ -405,6 +408,7 @@
   transform: translateY(-50px);
   transition: all 0.7s ease-out;
   padding: 10px;
+  cursor: default;
 }
 @media screen and (max-width: 425px) {
   .dropdown .paragraph {
@@ -608,6 +612,7 @@
   position: relative;
   margin: 0;
   padding-top: 20px;
+  cursor: default;
 }
 @media screen and (max-width: 425px) {
   .appt .appt-container .appt-title {
@@ -624,6 +629,7 @@
   color: #000;
   margin: 0;
   padding-top: 5px;
+  cursor: default;
 }
 @media screen and (max-width: 425px) {
   .appt .appt-container .appt-loc {
@@ -660,6 +666,7 @@
   padding: 5px 30px;
   font-size: 14px;
   font-weight: 700;
+  cursor: default;
 }
 @media screen and (max-width: 425px) {
   .appt .appt-container .tags {
@@ -706,6 +713,7 @@
   color: #ff6060;
   margin: 0;
   max-width: 50%;
+  cursor: default;
 }
 @media screen and (max-width: 425px) {
   .appt .host .host-name {

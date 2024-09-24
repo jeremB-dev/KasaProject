@@ -1,6 +1,9 @@
+//import du logo de Kasa
 import logoKasa from '../assets/img-projet/LOGO.png';
+// Importation de NavLink depuis react-router-dom pour la navigation entre les pages
 import { NavLink } from 'react-router-dom';
 
+//composant Header
 const Header = () => {
     return (
         <div className="header">

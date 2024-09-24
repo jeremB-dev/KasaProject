@@ -1,5 +1,6 @@
 import Apartment from "../components/Apartment";
 
+//composant qui affiche les cartes des appartements
 const ApptCards = () => {
     
     return (
