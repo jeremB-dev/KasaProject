@@ -2,7 +2,7 @@
 
 ---
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-react.svg-javascript.svg-html.svg)]
+[![shield](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]
 
 ---
 
